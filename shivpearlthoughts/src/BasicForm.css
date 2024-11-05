@@ -1,0 +1,72 @@
+
+.formdiv {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formdiv h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .inputfield {
+    margin-bottom: 15px;
+  }
+  
+  .inputfield label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .inputfield input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: white;
+  }
+  
+  /* Add hover and focus effects to inputs */
+  .inputfield input:focus {
+    border-color: #74aada;
+    outline: none;
+    box-shadow: 0 0 5px rgba(116, 170, 218, 0.3);
+  }
+  
+  /* Style for error messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Style for submit button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #74aada;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect for submit button */
+  button[type="submit"]:hover {
+    background-color: #5a9ac7;
+  }
+  

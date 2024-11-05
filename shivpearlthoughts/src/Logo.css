@@ -1,0 +1,12 @@
+.logoclass{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 122, 122, 0.607);
+    border-radius: 70px;
+    color: black;
+    position: relative;
+    bottom: 50px;
+}
